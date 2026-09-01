@@ -1,0 +1,55 @@
+# ==========================================
+# 1. DEPENDENCIAS (node_modules)
+# ==========================================
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# ==========================================
+# 2. ARCHIVOS DE ENTORNO Y SEGURIDAD (.env)
+# ==========================================
+.env
+.env.local
+.env.*.local
+client/.env
+server/.env
+
+# ==========================================
+# 3. BUILD Y COMPILACIÓN (Frontend/Vite)
+# ==========================================
+dist/
+build/
+client/dist/
+client/build/
+*.tsbuildinfo
+
+# ==========================================
+# 4. LOGS Y ARCHIVOS TEMPORALES
+# ==========================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+server/logs/
+
+# ==========================================
+# 5. ARCHIVOS DEL SISTEMA OPERATIVO Y EDITORES
+# ==========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ==========================================
+# 6. ARCHIVOS SUBIDOS POR USUARIOS (Media/Uploads)
+# ==========================================
+# Si el servidor guarda archivos subidos localmente en una carpeta como /uploads
+server/uploads/*
+!server/uploads/.gitkeep
