@@ -14,7 +14,7 @@ const seedData = async () => {
 
     const joseDuarte = new Tenant({
       name: 'Dr. José Duarte',
-      slug: 'jose-duarte',
+      slug: 'jose-luis-duarte',
       title: 'Profesor Titular - Cátedra de Métodos Numéricos',
       institution: 'Universidad Nacional del Nordeste',
       email: 'joseduarte@catedra.edu.ar',
